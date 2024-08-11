@@ -4,7 +4,7 @@ import mockData from "../mock/responseMock.json";
 
 //Cambiar si se ejecuta en localhost, linea 19 y 32.
 //const DEV_URL_BASE = "http://localhost:3001";
-const PROD_URL_BASE = "https://nest-challenge-encuentra.onrender.com/race";
+const PROD_URL_BASE = "https://nest-challenge-encuentra.onrender.com";
 
 export const MOCK_fetchRaceData = async () => {
   return new Promise<Response>((resolve) => {
